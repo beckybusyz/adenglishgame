@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Advance English — The Jealous Cloud (IFP demo)</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="presentation">
+    <!-- Slide 1 -->
+    <section class="slide slide-1" data-slide="1">
+      <div class="split left">
+        <div class="cloud-layer"></div>
+        <div class="lightning-layer" aria-hidden="true">
+          <div class="lightning bolt bolt-1"></div>
+          <div class="lightning bolt bolt-2"></div>
+        </div>
+      </div>
+      <div class="split right">
+        <div class="sun-rays"></div>
+      </div>
+      <div class="title-wrap">
+        <h1 class="main-title">Advance English: Unlocking Senses &amp; S.T.E.A.L Characterization</h1>
+        <p class="subtitle">Based on the storybook <em>The Jealous Cloud</em></p>
+      </div>
+      <div class="tap-cue" aria-hidden="true">Tap to continue ⮕</div>
+    </section>
+
+    <!-- Slide 2 placeholder -->
+    <section class="slide slide-2" data-slide="2">
+      <!-- Sensory cards would be implemented here -->
+    </section>
+
+    <!-- Slide 3 placeholder -->
+    <section class="slide slide-3" data-slide="3"></section>
+
+    <!-- Slide 4 (Drag & Drop) -->
+    <section class="slide slide-4" data-slide="4">
+      <h2 class="slide-head">Drag &amp; Drop: Match Quotes to S.T.E.A.L</h2>
+      <div class="drag-area">
+        <aside class="notes-column">
+          <div class="note" data-id="q1">"The cloud frowned like a jealous child."</div>
+          <div class="note" data-id="q2">"It muttered to itself, small and bitter."</div>
+          <div class="note" data-id="q3">"The sun warmed the meadow, and everything sighed."</div>
+          <div class="note" data-id="q4">"Her hands trembled as the wind pressed close."</div>
+        </aside>
+        <main class="drop-columns">
+          <div class="drop-column" data-target="Speech">Speech</div>
+          <div class="drop-column" data-target="Thoughts">Thoughts</div>
+          <div class="drop-column" data-target="Effect">Effect</div>
+          <div class="drop-column" data-target="Actions">Actions</div>
+          <div class="drop-column" data-target="Looks">Looks</div>
+        </main>
+      </div>
+      <div class="controls">
+        <button id="reset-notes">Reset</button>
+      </div>
+    </section>
+
+    <!-- Slide 5 -->
+    <section class="slide slide-5" data-slide="5"></section>
+
+    <!-- Slide 6 -->
+    <section class="slide slide-6" data-slide="6"></section>
+
+    <!-- Slide 7 -->
+    <section class="slide slide-7" data-slide="7"></section>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
